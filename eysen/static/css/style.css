@@ -1,0 +1,107 @@
+/*
+//////////////////////////////////////////////////////////////////////////
+Encabezado
+//////////////////////////////////////////////////////////////////////////
+*/
+
+header{
+    background: #262525;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.caja{
+    position: relative;
+    margin: 0 auto;
+}
+
+.icono{
+    padding-left: 30px;
+}
+
+nav{
+    position: absolute;
+    top: 4px;
+    right: 0;
+    padding-right: 30px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/*
+//////////////////////////////////////////////////////////////////////////
+Global
+//////////////////////////////////////////////////////////////////////////
+*/
+
+/*
+//////////////////////////////////////////////////////////////////////////
+Seccion Inicio
+//////////////////////////////////////////////////////////////////////////
+*/
+
+.inicio{
+    background-image: linear-gradient(to top, rgba(34, 34, 35, 0.404) 0%, rgba(70, 68, 69, 0.404) 100%), url(../img/eysenbkg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+
+}
+
+.frase1{
+    text-align: right;
+    font-weight: bold;
+    font-size: 80px;
+    padding: 150px 90px 0 0;
+}
+
+.frase2{
+    text-align: right;
+    font-weight: bold;
+    font-size: 80px;
+    padding: 0 90px 0 0;
+}
+
+
+.idea{
+    padding: 10px;
+    text-align: right;
+    font-size: 25px;
+    padding: 10px 90px 0 0;
+}
+/*
+//////////////////////////////////////////////////////////////////////////
+Pie de pagina
+//////////////////////////////////////////////////////////////////////////
+*/
+
+footer{
+    text-align: center;
+    background:  #262525;
+    padding: 10px;
+}
+
+.img-pie{
+    width: 50px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
