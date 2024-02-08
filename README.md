@@ -21,3 +21,5 @@ Trabajos realizados.
 >   | HTML | JavaScript | CSS |
 >
 > [Eysen](https://eysen.mx/ "eysen")
+
+* Estos son proyectos y ya se encutran despegados. 
