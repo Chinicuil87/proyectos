@@ -22,4 +22,5 @@ Trabajos realizados.
 >
 > [Eysen](https://eysen.mx/ "eysen")
 
-* Estos son proyectos y ya se encutran despegados. 
+* Estos son proyectos y ya se encutran en red y ya en funcion.
+* Nota Aun se trabaja en las actualziaciones que solicita el usuario.
