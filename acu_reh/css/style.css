@@ -109,7 +109,6 @@ h3{
 }
 
 .card__img{
-  text-align: center;
   border-radius: 20px;
   width: 380px;
   height: 290px;
@@ -122,3 +121,15 @@ p{
   display: block;
   margin: auto;
 }
+
+.contacto{
+    display: block;
+    margin: auto;
+}
+
+.direccion{
+    display: inline;
+    align-items: center;
+    margin: auto;
+}
+
