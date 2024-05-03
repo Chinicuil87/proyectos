@@ -6,6 +6,8 @@ Trabajos realizados.
 >
 > Pagina web de acupuntura.
 >
+> Estatus -> Produccion. 
+>
 >   * Lenguales
 >
 >       | HTML | JavaScript | CSS |
@@ -14,7 +16,7 @@ Trabajos realizados.
 
 ##Eysen SA de CV
 >
->Pagina web de eysen
+> Pagina web de eysen metal mecanica.
 >
 > * Lenguales
 >
@@ -24,13 +26,13 @@ Trabajos realizados.
 
 ## Alas+Chingonas
 >
-> Pagina web de acupuntura.
+> Pagina web de pequeño local de ventas de alitas y snacs.
 >
 >   * Lenguales
 >
 >       | HTML | JavaScript | CSS |
 >
->[alas+chingonas](https://alasmaschingonas.com/ "alas+chingonas")
+>[alasmaschingonas](https://alasmaschingonas.com/ "alas+chingonas")
 
 * Estos son proyectos y ya se encutran en red y ya en funcion.
 * Nota Aun se trabaja en las actualziaciones que solicita el usuario.
