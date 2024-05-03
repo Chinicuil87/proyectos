@@ -1,0 +1,406 @@
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat';
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        /* *********************/
+        /* seccion I N I C I O */
+        /* *********************/
+        
+        #inicio {
+            background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("./img/imagen-inicio.png");
+            background-size: cover;
+            background-position: center center;
+            height: 100vh;
+        }
+        
+        #inicio .contenido header {
+            background-color: rgba(0, 0, 0, .8);
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            top: 0;
+        }
+        
+        #inicio .contenido header .contenido-header {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        
+        #inicio .contenido header .contenido-header h1 {
+            text-align: center;
+            color: #ff5080;
+        }
+        
+        #inicio .contenido header .contenido-header nav ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+        
+        #inicio .contenido header .contenido-header nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 12px;
+            font-weight: 400;
+            transition: .5s;
+        }
+        
+        #inicio .contenido header .contenido-header nav ul li a:hover {
+            color: #ff5080;
+        }
+        
+        #inicio .contenido header .contenido-header .redes a {
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            margin-left: 10px;
+            transition: .5s;
+        }
+        
+        #inicio .contenido header .contenido-header .redes a:hover {
+            color: #ff5080;
+        }
+        
+        #inicio .contenido header .contenido-header .seleccionado {
+            color: #ff5080;
+        }
+        
+        #inicio .contenido .presentacion {
+            max-width: 1100px;
+            height: 100vh;
+            margin: auto;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #inicio .contenido .presentacion .bienvenida {
+            font-size: 16px;
+            margin-top: 45px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+        
+        #inicio .contenido .presentacion h2 {
+            font-size: 55px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        #inicio .contenido .presentacion h2 span {
+            font-size: 30px;
+            color: #ff5080;
+        }
+        
+        #inicio .contenido .presentacion .descripcion {
+            max-width: 700px;
+            margin: 0px auto;
+            font-size: 25px;
+            color: #8a8a8a;
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        #inicio .contenido .presentacion a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 25px;
+            padding: 20px 25px;
+            border: 2px solid #fff;
+            border-radius: 50px;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: .5s;
+        }
+        
+        #inicio .contenido .presentacion a:hover {
+            background-color: #ff5080;
+        }
+        
+        #icono-nav {
+            color: #fff;
+            display: none;
+        }
+        
+        /* *********************/
+        /* MENU */
+        /* *********************/
+        
+        #menu {
+            padding: 50px 15px;
+            text-align: center;
+            background-color: #f3f3f3;
+        }
+        
+        #menu .titulo-seccion {
+            text-align: center;
+            font-size: 25px;
+            text-transform: uppercase;
+            color: #111135;
+            text-decoration: underline;
+            text-decoration-color: #d3d3d3;
+            text-decoration-thickness: 5px;
+        }
+        
+        #menu .fila {
+            display: flex;
+            justify-content: space-between;
+            width: 1150px;
+            margin: 30px auto;
+        }
+        
+        #menu .fila .servicio {
+            width: 350px;
+            background-color: #fff;
+            padding: 30px;
+            margin: 0 5px;
+            border-radius: 10px;
+            transition: .5s;
+        }
+        
+        #menu .fila .servicio:hover {
+            box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+        }
+        
+        #menu .fila .servicio .icono {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border-radius: 40%;
+            background-color: #d3d3d3;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        .hotdog{
+            width: 90px;
+            height: 90px;
+            border-radius: 20px;
+            background: black;
+            margin-bottom: 10px;
+        }
+        
+        .alitas{
+            width: 90px;
+            height: 90px;
+            border-radius: 20px;
+            background: black;
+            margin-bottom: 10px;
+        }
+
+        .frituras{
+            width: 90px;
+            height: 90px;
+            border-radius: 20px;
+            background: black;
+            margin-bottom: 10px;
+        }
+
+        .hambur{
+            width: 90px;
+            height: 90px;
+            border-radius: 20px;
+            background: black;
+            margin-bottom: 10px;
+        }
+
+        .especial{
+            width: 90px;
+            height: 90px;
+            border-radius: 20px;
+            background: black;
+            margin-bottom: 10px;
+        }
+
+        #menu .fila .servicio h4 {
+            font-size: 22px;
+            margin-bottom: 25px;
+        }
+        
+        #menu .fila .servicio hr {
+            width: 30%;
+            margin: auto;
+            color: #000;
+            margin-bottom: 25px;
+        }
+        
+        #menu .fila .servicio ul {
+            list-style: none;
+            display: block;
+            justify-content: space-around;
+            margin-bottom: 10px;
+        }
+        #menu .fila .servicio ul li{
+            margin-top: 5px;
+        }
+        
+        #menu .fila .servicio p {
+            font-size: 14px;
+            line-height: 22px;
+        }
+        .precio{
+            color: #ff5080;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .entrega{
+            background: #f3f3f3;
+        }
+        
+        /* *********************/
+        /* CONTACTO */
+        /* *********************/
+        
+        #contacto {
+            padding: 100px 15px;
+            background-color: #f3f3f3;
+        }
+        
+        #contacto .titulo-seccion {
+            margin-bottom: 20px;
+        }
+        
+        #contacto .contenedor-form {
+            max-width: 1100px;
+            margin: auto;
+        }
+        
+        #contacto .contenedor-form .fila {
+            margin-bottom: 15px;
+        }
+        
+        #contacto .contenedor-form .mitad {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #contacto .contenedor-form input,
+        #contacto .contenedor-form textarea {
+            padding: 20px;
+            border-radius: 20px;
+            border: none;
+            border: 1px solid #919191;
+        }
+        
+        #contacto .contenedor-form .mitad input {
+            width: 48%;
+        }
+        
+        #contacto .contenedor-form .input-full {
+            width: 100%;
+        }
+        
+        #contacto .titulo-seccion {
+            text-align: center;
+            font-size: 22px;
+            text-transform: uppercase;
+            color: #111135;
+            text-decoration: underline;
+            text-decoration-color: #d3d3d3;
+            text-decoration-thickness: 5px;
+        }
+        
+        #contacto .btn-enviar {
+            display: block;
+            margin: auto;
+            cursor: pointer;
+            transition: .5s;
+            padding: 10px 15px !important;
+        }
+        
+        #contacto .btn-enviar:hover {
+            background-color: #ff5080;
+            color: #fff;
+        }
+        /* *********************/
+        /* FOOTER */
+        /* *********************/
+        
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        footer a {
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            margin: 5px;
+            font-size: 26px;
+        }
+        /* *********************/
+        /* RESPOSIVE */
+        /* *********************/
+        
+        @media screen and (max-width: 800px) {
+            nav {
+                display: none;
+            }
+            nav.responsive {
+                display: block;
+                background-color: rgba(0, 0, 0, .8);
+                width: 100%;
+                position: absolute;
+                top: 48px;
+                left: 0;
+                padding: 10px 0;
+            }
+            nav.responsive ul {
+                display: block !important;
+                text-align: center;
+            }
+            nav.responsive ul li {
+                margin: 5px 0;
+            }
+            #icono-nav {
+                display: block;
+            }
+            #inicio .contenido .presentacion h2 {
+                font-size: 40px;
+            }
+            /* seccion MIS SERVICIOS */
+            #menu .fila {
+                margin: 0;
+                width: 100%;
+                display: block;
+            }
+
+            #menu .fila .servicio{
+                width: 350px;
+                height: 400px;
+                margin: 10px auto;
+                align-items: center;
+                
+            }
+            
+            /* seccion CONTACTO */
+            #contacto {
+                padding: 50px 15px;
+            }
+            #contacto .contenedor-form .mitad {
+                margin-bottom: 15px;
+                display: block;
+            }
+            #contacto .contenedor-form .mitad input {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+        }

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="./img/icono.png" type="image/x-icon">
+    <title>alas + chingonas</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>
+                        <img src="./img/logo.png" alt="logo de alas mas chingonas" width="70px">
+                    </h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#menu" onclick="seleccionar(this)">MENU</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="redes">
+                        <a href="https://api.whatsapp.com/send/?phone=7224744389" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/alas.maschingonas?igsh=MWp4dHBxNnVjYzN6cw==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100076189487865&mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2> <img src="./img/logo.png" alt="logo" width="50%"></h2>
+                <p class="descripcion">PRUEB-ALAS Y DISFRUT-ALAS</p>
+                <a href="#menu">Ir a Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu">
+        <h3 class="titulo-seccion">MENU</h3>
+        <div class="fila">
+            <div class="servicio">
+                <img src="./img/hotdog.png" alt="imagen de hotdog" class="hotdog">
+                <h4>HOTGOG'S</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>ESPECIAL <span class="precio"> $25</span></li>
+                    <li>ESPECIAL CON PAPAS <span class="precio"> $50</span></li>
+                </ul>
+            </div>
+            <div class="servicio">
+                <img src="./img/alitas.png" alt="imagen alitas" class="alitas">
+                <h4>ALITAS</h4>
+                <hr>
+                <p>5 PIEZAS DE ALITAS, PAPAS Y VERDURAS  <span class="precio"> $75</span></p>
+                <ul class="servicios-tag">
+                    <li>BBQ</li>
+                    <li>BUFALO</li>
+                    <li>BBQ HOT</li>
+                    <li>MANGO HABANERO</li>
+                </ul>
+            </div>
+            <div class="servicio">
+                <img src="./img/frituras.png" alt="imagen de frituras" class="frituras">
+                <h4>FRITURAS</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>PAPAS A LA FRANCESA <span class="precio">$40</span></li>
+                    <li>SALCHIPULPOS CON PAPAS <span class="precio"> $45</span></li>
+                    <li>NUGGET CON PAPAS (7PZ)  <span class="precio"> $50</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <img src="./img/hamburguesa.png" alt="imagen de hamburguesa" class="hambur">
+                <h4>HAMBURGESAS</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>CLASICA <span class="precio"> $50</span></li>
+                    <li>BBQ <span class="precio"> $50</span></li>
+                    <li>MANGO HABANERO <span class="precio"> $ 50</span></li>
+                    <li>DOBLE <span class="precio"> $75</span></li>
+                    <li>CON PAPAS <span class="precio"> $75</span></li>
+                </ul>
+            </div>
+            <div class="servicio">
+                <img src="./img/especial.png" alt="imagen de especialidades" class="especial">
+                <h4>ESPECIALES</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>BURRITO CHINGON <span class="precio"> $25</span></li>
+                    <li>SINCRONIZADA <span class="precio"> $35</span></li>
+                </ul>
+            </div>
+            <div class="servicio entrega">
+                <img src="./img/entrega-de-comida.png" alt="imagen de entrega a somicilio" class="especial entrega">
+                <h4>ENTREGA DOMICILIO</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>ABRIMOS<span class="precio"></span></li>
+                    <li>DE JUEVES A DOMINGO<span class="precio"></span></li>
+                    <li>DE 6:30 PM A 10:00 PM <span class="precio"></span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">CONTACTANOS</h3>
+        <div class="contenedor-form">
+            <form action="https://formsubmit.co/alan.vazquez@alasmaschingonas.com" method="POST">
+                <div class="fila mitad">
+                    <input type="text"  name="Nombre" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email"  name="Email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text"  name="Tema" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+
+
+                <input type="hidden" name="_next" value="https://alasmaschingonas.com/gracias.html">
+
+                <input type="hidden" name="_captcha" value="false">
+
+                
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2024</p>
+        <div class="redes">
+            <a href="https://api.whatsapp.com/send/?phone=7224744389" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/alas.maschingonas?igsh=MWp4dHBxNnVjYzN6cw==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100076189487865&mibextid=LQQJ4d" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
