@@ -18,6 +18,8 @@ Trabajos realizados.
 >
 > Pagina web de eysen metal mecanica.
 >
+> Estatus -> Produccion.
+>
 > * Lenguales
 >
 >   | HTML | JavaScript | CSS |
@@ -27,6 +29,8 @@ Trabajos realizados.
 ## Alas+Chingonas
 >
 > Pagina web de pequeño local de ventas de alitas y snacs.
+>
+>Estatus -> Produccion.
 >
 >   * Lenguales
 >
